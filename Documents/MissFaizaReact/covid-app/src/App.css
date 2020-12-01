@@ -1,0 +1,11 @@
+.mycard{
+  max-width: 300px;
+  margin: 10px;
+  border: 2px solid grey;
+
+}
+.headtypo{
+  color: white;
+  font-weight: 400;
+
+}
