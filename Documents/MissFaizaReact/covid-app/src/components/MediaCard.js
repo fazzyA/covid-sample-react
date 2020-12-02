@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import CountUp from 'react-countup';
 
 
 export default function MediaCard({text, value, color}) {
@@ -19,7 +20,8 @@ console.log(color)
             {text}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            {value}
+          <h1 style={{color: 'white', fontWeight: 400}}>
+            <CountUp start= {1000} duration={4} end={value}/></h1>
           </Typography>
         </CardContent>
       </CardActionArea>
